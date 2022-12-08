@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+
+#banner {
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;    
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
