@@ -4,6 +4,7 @@ body {
 
 #banner {
     margin: 0%;
+    width: 100%;
 }
 
 h1 {
@@ -16,4 +17,8 @@ p {
 
 #missao {
     font-size: 20px;
+}
+
+.itens {
+   font-style: italic; 
 }
