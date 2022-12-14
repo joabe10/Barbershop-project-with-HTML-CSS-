@@ -2,6 +2,10 @@ body {
     
 }
 
+.titulo-principal {
+    padding-left: 20px;
+}
+
 #banner {
     margin: 0%;
     width: 100%;
@@ -12,7 +16,7 @@ body {
     padding: 20px;
 }
 
-h1 {
+.titulo-centralizado {
     text-align: center;    
 }
 
@@ -24,14 +28,14 @@ p {
     font-size: 20px;
 }
 
+#missao {
+    font-size: 20px;
+}
+
 .beneficios {
     background-color: white;
     padding: 20px;
 
-}
-
-h2 {
-    text-align: center;
 }
 
 ul{
@@ -46,6 +50,6 @@ ul{
     
 }
 
-#img {
+#imgbeneficios {
     width: 30%;
 }
