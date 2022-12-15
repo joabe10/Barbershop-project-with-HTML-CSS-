@@ -53,3 +53,20 @@ ul{
 #imgbeneficios {
     width: 30%;
 }
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+
+}
+
+.rodape {
+   padding-top: 20px;
+}
+
+.copyright {
+
+    color: white;
+    font-size: 13px;
+    padding: 40px 0;
+}
