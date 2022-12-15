@@ -20,17 +20,45 @@
             </div>
         </header>
         <main>
-        
-            <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome">
-            
-            <label for="email">E-mail</label>
-            <input type="text" id="email">
-            
-            <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome:</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
+                
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" class="input-padrao">
+                
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" class="input-padrao">
 
-            <input type="submit" value="Enviar formulário">
+                
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="mensagem" cols="70" rows="10"></textarea class="input-padrao">
+
+                <div class="radio">
+
+                    <p class="titulo-radio">Como prefere o nosso contato?</p>
+                    <label for="contato-email"><input type="radio" id="contato-email" name="contato">E-mail</label>
+                   
+                    <label for="contato-ligação"><input type="radio" id="contato-email" name="contato">Ligação</label>
+                    
+                    <label for="contato-whatsapp"><input type="radio" id="contato-whatsapp" name="contato">Whatsapp</label>
+                    
+                </div>   
+
+                <label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por email?</label>
+                
+                <div class="select">
+                    <p>Qual horário prefere ser atendido?</p>
+                    <Select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </Select>
+                </div>
+
+                <input class="submit" type="submit" value="Enviar formulário">
+            </form>
         </main>
         <footer>
             <img class="rodape"  src="logo-branco.png">
