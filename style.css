@@ -84,6 +84,62 @@ nav a:hover{
     font-size: 18px;
 }
 
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+ form label, form p{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.radio {
+  margin: 20px 0;
+}
+
+.radio label{
+    margin-left: 10px;
+}
+
+.checkbox {
+    margin-right: 10px
+}
+
+.select {
+    margin: 30px;
+}
+
+.submit{
+    padding: 10px 0;
+    margin-top: 15px;
+    width: 40%;
+    background: rgb(224, 177, 5);
+    color: white;
+    text-decoration-color: aliceblue;
+    border-radius: 10%;
+}
+
+.submit:hover{
+    text-transform:uppercase;
+    font-size: 13px;
+    border-color: yellow;
+    color: white;
+}
+
 footer {
     text-align: center;
     background: url("bg.jpg");
