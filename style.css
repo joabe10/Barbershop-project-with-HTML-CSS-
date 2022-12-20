@@ -30,6 +30,15 @@ nav a {
     text-transform: uppercase;
 }
 
+#caixa {
+    width: 100%;
+    
+}
+#banner{
+    margin-top: 20px;
+    width: 100%;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
