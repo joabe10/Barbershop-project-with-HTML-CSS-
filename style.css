@@ -1,3 +1,7 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: gray;
     padding: 20px 0;
@@ -35,8 +39,67 @@ nav a {
     
 }
 #banner{
-    margin-top: 20px;
+    
     width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.beneficios{
+    text-align: center;
+}
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    clear: left;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.estabelecimento p{
+    text-align: center;
+    margin: 2em 2em 0 0 ;
+}
+
+.estabelecimento iframe{
+    text-align: center;
+    margin: 2em 2em 0 0 ;
+}
+
+.lista {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.itens {
+    padding: 5px 30px;
+} 
+
+.imgbeneficios {
+    width: 35%;
+}
+
+.video{
+    text-align: center;
 }
 
 .produtos {
