@@ -36,10 +36,9 @@ nav a {
 
 #caixa {
     width: 100%;
-    
 }
+
 #banner{
-    
     width: 100%;
 }
 
@@ -48,14 +47,24 @@ nav a {
     font-weight: bold;
     font-size: 2em;
     margin-bottom: 1em;
-    margin-top: 2em;
+    padding-top: 3em;
 }
 
-.beneficios{
-    text-align: center;
+.principal {
+ 
+    background: #fefefe;
+
 }
+
+.principal2 {
+    width: 940px;
+    margin: 0 auto;
+
+
+}
+
 .principal p {
-    margin-bottom: 1em;
+    padding-bottom: 1em;
 }
 
 .principal strong {
@@ -74,6 +83,11 @@ nav a {
     padding-right: 20px;
 }
 
+.estabelecimento {
+
+    background: linear-gradient(#fefefe, #888888);
+}
+
 .estabelecimento p{
     text-align: center;
     margin: 2em 2em 0 0 ;
@@ -84,6 +98,16 @@ nav a {
     margin: 2em 2em 0 0 ;
 }
 
+.estabelecimento2 {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.conteúdo-benefícios {
+    width: 640px;
+    margin: 0 auto;
+}
+
 .lista {
     display: inline-block;
     vertical-align: top;
@@ -91,15 +115,37 @@ nav a {
 }
 
 .itens {
-    padding: 5px 30px;
+    line-height: 1.5;
+    padding-right: 10px;
 } 
 
+.itens:before {
+    content: "★";
+}
+
+.beneficios{
+    text-align: center;
+    background:#888888;
+}
+
+.beneficios2{
+    width: 940px;
+    margin: 0 auto;
+}
+
 .imgbeneficios {
-    width: 35%;
+    width: 55%;
 }
 
 .video{
     text-align: center;
+   padding: 30px 0;
+   background: #888888;
+}
+
+.video2{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .produtos {
@@ -156,10 +202,7 @@ nav a:hover{
     font-size: 18px;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 form {
     margin: 40px 0;
