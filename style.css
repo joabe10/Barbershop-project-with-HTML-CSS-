@@ -3,20 +3,24 @@ body {
 }
 
 header{
-    background: gray;
+    background: rgb(151, 151, 151);
     padding: 20px 0;
 }
 
 .caixa {
     width: 940px;
     position: relative;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
+
+.logo-caixa{
+    width: 15%;
+}
+
 
 nav {
     position: absolute;
-    top: 110px;
+    top: 95px;
     right: 0;
 }
 
@@ -59,8 +63,6 @@ nav a {
 .principal2 {
     width: 940px;
     margin: 0 auto;
-
-
 }
 
 .principal p {
@@ -119,6 +121,10 @@ nav a {
     padding-right: 10px;
 } 
 
+.itens:first-child {
+    font-weight: bold;
+}
+
 .itens:before {
     content: "★";
 }
@@ -135,11 +141,17 @@ nav a {
 
 .imgbeneficios {
     width: 55%;
+    opacity: 1;
+}
+
+.imgbeneficios:hover {
+    opacity: 0.3;
+    transition: 400ms;
 }
 
 .video{
     text-align: center;
-   padding: 30px 0;
+   padding: 40px 0;
    background: #888888;
 }
 
@@ -176,20 +188,23 @@ nav a {
 }
 
 nav a:hover{
-    color:#C78C19;
+    color: #4464ad;
     text-decoration: underline;
 }
 
 .produtos li:hover {
-   border-color: #C78C19;
+   border-color: #8BAAAD;
+   
+   transition: 800ms;
 }
 
 .produtos li:active {
-    border-color: #088c19;
+    border-color: #4464AD;
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 31px;
+    transition: 800ms;
 }
 
 .preço {
@@ -202,17 +217,21 @@ nav a:hover{
     font-size: 18px;
 }
 
-
+.caixote-form{
+    padding-left: 70px;
+}
 
 form {
+    
     margin: 40px 0;
 
 }
 
- form label, form legend{
+ form label, form legend {
     display: block;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 
 }
 .input-padrao {
@@ -229,6 +248,11 @@ form {
 .radio label{
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.nomes-radio {
+    font-size: 15px;
+    font-weight: normal;
 }
 
 .checkbox {
@@ -253,7 +277,7 @@ select option{
 
 .submit{
     padding: 15px 0;
-    margin-top: 15px;
+    margin: 30px 20px 40px 40px;
     width: 40%;
     background: orange;
     color: white;
@@ -274,8 +298,7 @@ select option{
 }
 
 table{
-    margin: 20px 40px;
-    
+    margin: 15px 60px 40px 40px;
     
 }
 
@@ -298,11 +321,13 @@ footer {
 
 .rodape {
    padding-top: 20px;
+   width: 10%;
 }
 
 .copyright {
 
     color: white;
     font-size: 13px;
-    padding: 40px 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
